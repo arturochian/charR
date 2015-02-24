@@ -1,0 +1,23 @@
+Package: charR
+Title: Implementing CharAnalysis in R
+Version: 0.0.0.9000
+Authors@R: person("Kevin", "Ferris", , "kevin.ferris10@gmail.com", role = c("aut", "cre"))
+Description:
+  Allows the use of the CharAnalysis program in R.  This makes it possible for users to identifying peaks in a charcoal record directly from R.  It also provides methods for estimating the probability that CharAnalysis has correctly identified a peak.
+Depends:
+  R (>= 3.1.2),
+  quantmod (>= 0.4-3),
+  data.table (>= 1.9.4),
+  mclust (>= 4.4),
+  robfilter (>= 4.1)
+Imports:
+  reshape2 (>= 1.4.1),
+  MASS (>= 7.3-35),
+  nlme (>= 3.1-118),
+  arm (>= 1.7-07)
+Suggests:
+  ggplot2 (>= 1.0.0),
+  gridExtra (>= 0.9.1),
+  plyr (>= 1.8.1)
+License: MIT + file LICENSE
+LazyData: true

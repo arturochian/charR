@@ -1,0 +1,19 @@
+---
+title: "charR"
+author: "Kevin Ferris and Terrill Patterson"
+output: html_document
+---
+
+`charR` is an R package which makes it possible to use CharAnalysis directly from R.  It also provides methods for estimating the reliability of peak detection in CharAnalysis.
+
+## Installation
+
+`charR` is not currently available on CRAN, but it can be installed from GitHub using the `devtools` package.
+
+```
+install.packages("devtools")
+devtools::install_github("kferris10/charR")
+```
+
+Right now all the functions work, and that's as far as I've gotten.  Now, we just need to document them. 
+
