@@ -1,8 +1,5 @@
----
-title: "charR"
-author: "Kevin Ferris and Terrill Patterson"
-output: html_document
----
+
+# charR
 
 `charR` is an R package which makes it possible to use CharAnalysis directly from R.  It also provides methods for estimating the reliability of peak detection in CharAnalysis.
 
